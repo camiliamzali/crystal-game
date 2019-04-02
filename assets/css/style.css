@@ -2,3 +2,16 @@ html,
 body {
   height: 100%;
 }
+
+.jumbotron {
+
+  background: url("../images/cool-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 2px slateblue;
+}
+
+.display-3 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
