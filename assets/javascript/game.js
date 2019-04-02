@@ -21,7 +21,7 @@ $(document).ready(function () {
 
   function resetCrystals() {
     for (var i = 0; i < totalCrystals; i++) {
-      var randomNum = Math.floor(Math.random() * 10) + 1; //random Number betwen 1 and 10
+      var randomNum = Math.floor(Math.random() * 10) + 1;
       crystals[i].dataset.crystalvalue = randomNum;
       console.log(`Crystal ${i} is ${randomNum}`);
     }
@@ -29,7 +29,6 @@ $(document).ready(function () {
 
 
   function newGame() {
-
     $("#match").text(targetNumber());
     $("#score").text("0");
     counter = 0;
@@ -41,8 +40,6 @@ $(document).ready(function () {
     crystalValue = parseInt(crystalValue);
     var targetNumber = $("#match").text();
     counter += crystalValue;
-    console.log(targetNumber);
-    console.log(counter);
     $("#score").text(counter);
 
     if (counter == targetNumber) {
