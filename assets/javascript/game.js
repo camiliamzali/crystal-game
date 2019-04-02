@@ -6,13 +6,13 @@ $(document).ready(function () {
   // Generate random target number for user to aim for with a range between 50 - 100
 
   function targetNumber(min, max) {
-    return Math.floor(Math.random() * (100 - 50 + 1) + 50);
+    return Math.floor(Math.random() * (120 - 19 + 1) + 19);
   }
 
 
   // Generate random number to assign to crystals with a range between 1 - 10
 
-  for (var i = 1; i <= 10; i++) {
+  for (var i = 1; i <= 12; i++) {
     crystalValues.push(i);
   }
 
