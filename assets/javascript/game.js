@@ -23,7 +23,7 @@ $(document).ready(function () {
     for (var i = 0; i < totalCrystals; i++) {
       var randomNum = Math.floor(Math.random() * 12) + 1;
       crystals[i].dataset.crystalvalue = randomNum;
-      console.log(`Crystal ${i} is ${randomNum}`);
+      // console.log(`Crystal ${i} is ${randomNum}`);
     }
   }
 
